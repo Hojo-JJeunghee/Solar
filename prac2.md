@@ -18,9 +18,9 @@ git status
 
 4. 히스토리 만들기
 ```
-git commit -m " "
+git commit -m "first commit"
 ```
-* -m 은 메세지의 준말로 뒤에 "" 안에 주고싶은 히스토리 이름을 주면 됨
+* -m 은 메세지의 준말로 뒤에 "" 안에 주고싶은 히스토리 이름을 주면 됨( first, second, ~)
 
 5. Github repository랑 내 로컬 프로젝트랑 연결
 ```
@@ -36,7 +36,7 @@ git remote -v
 
 7. Github로 올리기
 ```
-git push origin master
+git push -u origin master/main
 ```
 * master 자리에는 Branch 이름이 들어가면 됨. 
 
@@ -59,4 +59,3 @@ git commit -m ""
 git push origin master
 ```
 내 컴퓨터에 소스코드를 업데이트 하고 싶으면 **세개의 스텝**만 반복하면 됨.
-
