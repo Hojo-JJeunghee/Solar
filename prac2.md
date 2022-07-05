@@ -56,6 +56,6 @@ git commit -m ""
 
 3. Github로 올리기
 ```
-git push origin master
+git push origin main
 ```
 내 컴퓨터에 소스코드를 업데이트 하고 싶으면 **세개의 스텝**만 반복하면 됨.
